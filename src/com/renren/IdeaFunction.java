@@ -13,6 +13,7 @@ public class IdeaFunction {
     }
 
     public static void main(String[] args) {
+        System.out.println("append something");
         IdeaFunction ideaFunction = IdeaFunction.getInstance();
         System.out.println("new ideaFunction "+ideaFunction);
     }
